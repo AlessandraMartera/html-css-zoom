@@ -23,6 +23,7 @@ button {
     cursor: pointer;
 }
 
+
 /* header */
 header {
     height: 70px;
@@ -39,22 +40,27 @@ header button {
     border-radius: 9px;
     padding: 10px;
 }
+
+
 /* main */
 main {
-
-    height: 70vh;
-    margin: 15px 30px;
+    height: 75vh;
+    margin: 15px 70px;
     padding: 5px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .webcam {
     display: inline-block;
-    height: 20%;
+    height: 25%;
 }
 
 .webcam img {
     height: 100%;
-    margin: 10px 5px;
 }
 
 .webcam {
@@ -69,6 +75,7 @@ main {
     bottom: 0;
     left: 0;
 }
+
 
 /* footer */
 footer {
@@ -101,13 +108,14 @@ footer {
     margin: 0 10px;
 }
 
-i {
+footer i {
     font-size: 30px;
 }
 
 .icon-img {
     font-size: 30px;
 }
+
 /* End Button */
 footer button {
     height: 100%;
@@ -116,25 +124,25 @@ footer button {
     padding: 0 30px;
 }
 
+
+
+
 /* DEBUG */
 
 
 /* header */
-header {
+/* header {
     border: 1px solid #fff;
-}
+} */
 
 /* main */
 /* main {
-    width: auto;
-    
     border: 2px dotted #fff;
-    overflow: auto;
 } */
 
-.name {
+/* .name {
     border: 1px dotted white ;
-}
+} */
 /* footer */
 /* footer {
     border: 1px solid #fff;
