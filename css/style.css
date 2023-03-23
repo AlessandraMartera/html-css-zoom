@@ -30,13 +30,35 @@ header button {
     color: #fff;
     border: 1px ;
     border-radius: 9px;
-    padding: 5px;
+    padding: 10px;
 }
 /* main */
 main {
     margin: 15px 30px;
-    display: flex;
+    padding: 5px;
+}
 
+.webcam {
+    display: inline-block;
+    height: 20%;
+}
+
+.webcam img {
+    height: 100%;
+    margin: 10px 5px;
+}
+
+.webcam {
+    position: relative;
+}
+
+.name {
+    background-color: #6b747ea6;
+    color: #fff;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /* footer */
@@ -51,24 +73,9 @@ footer {
     justify-content: space-between;
 }
 
-.left-commands {
-
-}
-
-.center-commands {
-
-}
-
-
-.right-commands {
-}
 
 /* DEBUG */
 
-.window {
-
-
-}
 
 /* header */
 header {
@@ -77,9 +84,15 @@ header {
 
 /* main */
 main {
+    width: auto;
+    height: 70vh;
     border: 2px dotted #fff;
+    overflow: auto;
 }
 
+.name {
+    border: 1px dotted white ;
+}
 /* footer */
 footer {
     border: 1px solid #fff;
