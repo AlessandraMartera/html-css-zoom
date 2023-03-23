@@ -67,7 +67,6 @@ main {
 footer {
     height: 100px;
     width: 100%;
-    padding: 20px 0;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -76,17 +75,30 @@ footer {
     color: #fff;
 }
 
-.left-commands {
+.commands {
     display: flex;
     align-items: center;
 }
 
-.icon {
+.icon-element {
     display: inline-block;
     text-align: center;
-    vertical-align: middle;
 }
 
+i {
+    font-size: 30px;
+}
+
+.icon-img {
+    font-size: 30px;
+}
+/* End Button */
+.end {
+    height: 100%;
+    background-color: #4a4a4a;
+    color: red;
+    padding: 0 30px;
+}
 
 /* DEBUG */
 
@@ -112,24 +124,16 @@ footer {
     border: 1px solid #fff;
 }
 
-.left-commands {
-    /* width: 20%; */
+.commands {
     border: 1px dashed pink;
 }
 
-.center-commands {
-    height: 80px;
-    width: 50%;
+.center {
     border: 1px dashed pink;
 }
 
-.right-commands {
-    height: 80px;
-    width: 20%;
-    border: 1px dashed pink;
-}
-
-
-.command {
+.icon{
     border: 1px dotted #11fd00;
 }
+
+.icon-elements
