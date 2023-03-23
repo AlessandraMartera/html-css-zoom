@@ -15,6 +15,13 @@ body {
     position:relative;
 }
 
+.green-text {
+    color: greenyellow;
+}
+
+button {
+    cursor: pointer;
+}
 
 /* header */
 header {
@@ -73,6 +80,7 @@ footer {
     display: flex;
     justify-content: space-between;
     color: #fff;
+    background-color: #222222;
 }
 
 .commands {
@@ -80,9 +88,17 @@ footer {
     align-items: center;
 }
 
+.icon {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
 .icon-element {
     display: inline-block;
     text-align: center;
+    margin: 0 10px;
 }
 
 i {
@@ -93,7 +109,7 @@ i {
     font-size: 30px;
 }
 /* End Button */
-.end {
+footer button {
     height: 100%;
     background-color: #4a4a4a;
     color: red;
@@ -120,7 +136,7 @@ header {
     border: 1px dotted white ;
 }
 /* footer */
-footer {
+/* footer {
     border: 1px solid #fff;
 }
 
@@ -136,4 +152,4 @@ footer {
     border: 1px dotted #11fd00;
 }
 
-.icon-elements
+.icon-elements */
