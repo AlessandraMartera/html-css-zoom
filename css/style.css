@@ -1,0 +1,104 @@
+/* general settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.window {
+    height: 100vh;
+    background-color: black;
+    position:relative;
+}
+
+
+/* header */
+header {
+    height: 70px;
+    padding-right: 20px;
+    text-align: right;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+header button {
+    background-color: rgba(128, 128, 128, 0.534);
+    color: #fff;
+    border: 1px ;
+    border-radius: 9px;
+    padding: 5px;
+}
+/* main */
+main {
+    margin: 15px 30px;
+    display: flex;
+
+}
+
+/* footer */
+footer {
+    height: 150px;
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-commands {
+
+}
+
+.center-commands {
+
+}
+
+
+.right-commands {
+}
+
+/* DEBUG */
+
+.window {
+
+
+}
+
+/* header */
+header {
+    border: 1px solid #fff;
+}
+
+/* main */
+main {
+    border: 2px dotted #fff;
+}
+
+/* footer */
+footer {
+    border: 1px solid #fff;
+}
+
+.left-commands {
+    height: 80px;
+    width: 20%;
+    border: 1px dashed pink;
+}
+
+.center-commands {
+    height: 80px;
+    width: 50%;
+    border: 1px dashed pink;
+}
+
+.right-commands {
+    height: 80px;
+    width: 20%;
+    border: 1px dashed pink;
+}
