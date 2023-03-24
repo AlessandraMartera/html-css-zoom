@@ -44,19 +44,18 @@ header button {
 
 /* main */
 main {
-    height: 75vh;
+    height: calc(100vh - 200px);
     margin: 15px 70px;
-    padding: 5px;
     overflow: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
 }
 
 .webcam {
     display: inline-block;
-    height: 25%;
+    height: 150px;
 }
 
 .webcam img {
